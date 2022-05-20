@@ -1,34 +1,24 @@
-# Spring Boot @ConfigurationProperties Example 
+# Spring Boot @ConfigurationProperties Example with environment variables
 
-**Tutorial:** [Spring Boot @ConfigurationProperties: Binding external configurations to POJO classes](https://www.callicoder.com/spring-boot-configuration-properties-example/)
+Based on https://github.com/callicoder/spring-boot-configuration-properties-demo.
+Demonstrates how Spring injects the values of environment variables.
 
 ## Requirements
 
 1. Java - 1.8.x
 
-2. Maven - 3.x.x
-
-3. MySQL - 5.x.x
+1. Maven - 3.x.x
 
 ## Steps to Setup
 
-**1. Clone the application**
+1. **Clone the application**
 
-```bash
-git clone https://github.com/callicoder/spring-boot-configuration-properties-demo.git
-```
+    ```bash
+    git clone https://github.com/aszego/spring-boot-configuration-properties-demo.git
+    ```
 
-**2. Build and run the app using maven**
+1. **Open in VSCode**
+    * Accept re-opening as dev container.
 
-```bash
-mvn package
-java -jar target/config-properties-demo-0.0.1-SNAPSHOT.jar
-```
-
-Alternatively, you can run the app directly without packaging like this -
-
-```bash
-mvn spring-boot:run
-```
-
-The app will start running at <http://localhost:8080>.
+1. **Hit F5**
+    The app will start running at <http://localhost:8080>.
