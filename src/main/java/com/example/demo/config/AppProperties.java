@@ -20,6 +20,7 @@ public class AppProperties {
     @NotNull
     private String name;
     private String description;
+    private String desc;
     private String uploadDir;
 
     private Duration connectTimeout = Duration.ofMillis(1000);
@@ -42,8 +43,16 @@ public class AppProperties {
         return description;
     }
 
+    public String getDesc() {
+        return desc;
+    }
+
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
     }
 
     public String getUploadDir() {

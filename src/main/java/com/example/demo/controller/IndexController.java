@@ -20,6 +20,9 @@ public class IndexController {
         Map<String, String> appDetails = new HashMap<>();
         appDetails.put("name", appProperties.getName());
         appDetails.put("description", appProperties.getDescription());
+        appDetails.put("desc", appProperties.getDesc());
+        appDetails.put("APP_DESCRIPTION", System.getenv("APP_DESCRIPTION"));
+
 
         return appDetails;
     }
