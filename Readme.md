@@ -5,9 +5,7 @@ Demonstrates how Spring injects the values of environment variables.
 
 ## Requirements
 
-1. Java - 1.8.x
-
-1. Maven - 3.x.x
+Visual Studio Code and Docker.
 
 ## Steps to Setup
 
@@ -17,7 +15,7 @@ Demonstrates how Spring injects the values of environment variables.
     git clone https://github.com/aszego/spring-boot-configuration-properties-demo.git
     ```
 
-1. **Open in VSCode**
+1. **Open in Visual Studio Code**
     * Accept re-opening as dev container.
 
 1. **Hit F5**
