@@ -1,7 +1,7 @@
 # Spring Boot @ConfigurationProperties Example with environment variables
 
 Based on https://github.com/callicoder/spring-boot-configuration-properties-demo.
-Demonstrates how Spring injects the values of environment variables.
+Self-contaiened (dockerized) sample demonstrating how Spring Boot injects values from environment variables and files inside a configuration tree.
 
 ## Requirements
 
