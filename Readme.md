@@ -1,11 +1,12 @@
 # Spring Boot @ConfigurationProperties Example with environment variables
 
+Self-contained (dockerized) sample demonstrating how Spring Boot injects values from environment variables and files inside a configuration tree.
+
 Based on https://github.com/callicoder/spring-boot-configuration-properties-demo.
-Self-contaiened (dockerized) sample demonstrating how Spring Boot injects values from environment variables and files inside a configuration tree.
 
 ## Requirements
 
-Visual Studio Code and Docker.
+Visual Studio Code and a Docker-compatibel container runtime.
 
 ## Steps to Setup
 
